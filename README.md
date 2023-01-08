@@ -1,23 +1,23 @@
 # Slot Machine Game
-This is a simple slot machine game that allows the user to play by depositing money, betting on lines, and spinning the slot machine. The user can choose to spin or quit the game at any time. The game calculates the winnings based on the symbols that appear in each line and the value of those symbols.
+This is a simple slot machine game in which the user deposits money, bets on lines, and spins the slot machine. The user can spin the wheel or exit the game at any time. The winnings are determined by the symbols that appear in each line and the value of those symbols.
 
 ##Features
-- Constants for the maximum and minimum number of lines and bet
-- Constants for the number of rows and columns in the slot machine
-- A dictionary mapping symbols to their counts on the slot machine
-- A dictionary mapping symbols to their values in terms of winnings
-- A function to calculate the winnings for a given spin of the slot machine
-- A function to generate a random spin of the slot machine
-- A function to print the symbols in each column of the slot machine
-- A function to prompt the user for their deposit amount
-- A function to prompt the user for the bet amount
-- A function to prompt the user for the number of lines to bet on
-- A function to simulate a spin of the slot machine and return the resulting balance
-- A main function that executes the game loop and manages the user's balance
+- Constants representing the maximum and minimum number of lines and bets
+- Slot machine constants for the number of rows and columns
+- A dictionary that maps symbols to their slot machine counts
+- A dictionary that maps symbols to their monetary values
+- A function that computes the winnings for a given slot machine spin.
+- A function that generates a random slot machine spin.
+- A function for printing the symbols in each slot machine column
+- A function that prompts the user for the amount of their deposit 
+- A function that prompts the user for the amount of their bet 
+- A function that prompts the user for the number of lines to bet on
+- A function that simulates a slot machine spin and returns the resulting balance.
+- A main function that runs the game loop and keeps track of the user's balance.
 ## How to Play
-Clone or download the repository.
-Navigate to the directory containing the code.
-Run the slot_machine.py file using a Python interpreter.
-Follow the prompts to start the game and play the slot machine.
+1. Download or clone the repository.
+2. Navigate to the code-containing directory.
+3. Using a Python interpreter, run the slot machine.py file.
+4. To begin the game and play the slot machine, simply follow the prompts.
 ## Requirements
 Python 3.9-64
