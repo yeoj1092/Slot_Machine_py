@@ -25,9 +25,8 @@ SYMBOL_VALUE = {
     "D": 2
 }
 
+
 # Calculates the winnings for a given spin of the slot machine
-
-
 def check_winnings(columns, lines, bet, values):
     # Initialize variables to track total winnings and winning lines
     winnings = 0
@@ -96,9 +95,8 @@ def get_slot_machine_spin(rows, cols, symbols):
     # Return the list of columns
     return columns
 
+
 # Prints the symbols in each column of the slot machine
-
-
 def print_slot_machine(columns):
     # Loop through each row in the slot machine
     for row in range(len(columns[0])):
@@ -140,9 +138,8 @@ def get_deposit_amount():
     # Return the deposit amount
     return amount
 
+
 # Prompts the user for the bet amount and returns it
-
-
 def get_bet_amount(balance):
     # Loop until the user enters a valid bet amount
     while True:
@@ -167,9 +164,8 @@ def get_bet_amount(balance):
     # Return the bet amount
     return amount
 
+
 # Prompts the user for the number of lines to bet on and returns it
-
-
 def get_number_of_lines():
     # Loop until the user enters a valid number of lines
     while True:
@@ -195,9 +191,8 @@ def get_number_of_lines():
     # Return the number of lines
     return lines
 
+
 # Simulates a spin of the slot machine and returns the resulting balance
-
-
 def spin(balance):
     # Get the number of lines to bet on from the user
     lines = get_number_of_lines()
@@ -240,9 +235,8 @@ def spin(balance):
     # Return the new balance
     return new_balance
 
+
 # The main function for the slot machine game
-
-
 def main():
     # Prompt the user to start the game
     start = input(
